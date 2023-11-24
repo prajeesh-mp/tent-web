@@ -1,4 +1,4 @@
-import NavBar from "./components/Navbar";
+// import NavBar from "./components/Navbar";
 import "./App.css";
 
 function App() {
@@ -7,8 +7,8 @@ function App() {
       {/* <NavBar /> */}
       <main>
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
-          <div className="col-md-6 p-lg-5 mx-auto my-5">
-            <img src="/logo.png" width="200px" />
+          <div className="col-md-12 p-lg-5 mx-auto my-5">
+            <img src="/logo.png" width="200px" alt="Tent Admin Dashboard" />
             <h1 className="display-3 fw-bold">Designed for developers</h1>
             <h3 className="fw-normal text-muted mb-3">
               Build minimalistic Dashboard with Tent Admin
@@ -24,7 +24,12 @@ function App() {
             className="btn btn-primary align-self-center w-25 "
           >
             Join Waitlist for 50% discount
-            <img src="/right-arrow.png" width="25px" height="25px" />
+            <img
+              src="/right-arrow.png"
+              width="25px"
+              height="25px"
+              alt="React Admin Dashboard"
+            />
           </a>
         </div>
 
@@ -44,6 +49,7 @@ function App() {
               <img
                 src="/tent-dashboard-products.jpg"
                 className="rounded img-fluid shadow"
+                alt="Tent Admin Dashboard"
               />
             </div>
           </div>
@@ -53,15 +59,15 @@ function App() {
               <img
                 src="/tent-admin-dashboard.jpg"
                 className="rounded img-fluid shadow"
+                alt="Tent Admin Dashboard"
               />
             </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
-              <h2>Analytics</h2>
+              <h2>Insights</h2>
               <p className="text-center text-muted">
-                Navigate your internal operations effortlessly. The
-                user-friendly interface ensures that your team can manage and
-                monitor products with ease, fostering a more productive and
-                organized work environment.
+                Explore dynamic charts, trends, and numerical insights on our
+                intuitive dashboard page. Tent Admin Dashboard goes beyond
+                coding, providing a visual narrative of your data.
               </p>
             </div>
           </div>
@@ -88,12 +94,20 @@ function App() {
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
               <img
                 src="/tent-admin-form.jpg"
-                className="rounded img-fluid shadow"
+                className="rounded img-fluid shadow w-50"
+                alt="Tent Admin Dashboard"
               />
             </div>
           </div>
 
           <div className="row my-5">
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src="/tent-admin-card.jpg"
+                className="rounded img-fluid w-50"
+                alt="Tent Admin Dashboard"
+              />
+            </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
               <h2>Interactive Cards</h2>
               <p className="text-center text-muted">
@@ -103,21 +117,9 @@ function App() {
                 at a glance.
               </p>
             </div>
-            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
-              <img
-                src="/tent-admin-card.jpg"
-                className="rounded img-fluid w-50"
-              />
-            </div>
           </div>
 
           <div className="row my-5">
-            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
-              <img
-                src="/tent-admin-popover.jpg"
-                className="rounded img-fluid w-50"
-              />
-            </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
               <h2>Intuitive Popovers</h2>
               <p className="text-center text-muted">
@@ -127,9 +129,23 @@ function App() {
                 team's fingertips.
               </p>
             </div>
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src="/tent-admin-popover.jpg"
+                className="rounded img-fluid w-50"
+                alt="Tent Admin Dashboard"
+              />
+            </div>
           </div>
 
           <div className="row my-5">
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src="/tent-admin-context-menu.jpg"
+                className="rounded img-fluid w-25"
+                alt="Tent Admin Dashboard"
+              />
+            </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
               <h2>Context Menu</h2>
               <p className="text-center text-muted">
@@ -138,12 +154,6 @@ function App() {
                 interaction with your dashboard elements, ensuring a fluid user
                 experience as your team manages tasks and information.
               </p>
-            </div>
-            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
-              <img
-                src="/tent-admin-context-menu.jpg"
-                className="rounded img-fluid w-25"
-              />
             </div>
           </div>
 
@@ -166,7 +176,12 @@ function App() {
               className="btn btn-primary align-self-center w-25 "
             >
               Join Waitlist for 50% discount
-              <img src="/right-arrow.png" width="25px" height="25px" />
+              <img
+                src="/right-arrow.png"
+                width="25px"
+                height="25px"
+                alt="Tent Admin Dashboard"
+              />
             </a>
           </div>
           <div className="mb-3 col-sm-12 col-md-4 col-lg-4 "></div>
