@@ -8,27 +8,24 @@ function App() {
       <main>
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
           <div className="col-md-6 p-lg-5 mx-auto my-5">
+            <img src="/logo.png" width="200px" />
             <h1 className="display-3 fw-bold">Designed for developers</h1>
             <h3 className="fw-normal text-muted mb-3">
-              Build anything you want with Tent Dashboard
+              Build minimalistic Dashboard with Tent Admin
             </h3>
-            <div className="d-flex gap-3 justify-content-center lead fw-normal">
-              <a className="icon-link" href="#">
-                Take a tour
-                <svg className="bi">
-                  {/* <use xlink:href="#chevron-right" /> */}
-                </svg>
-              </a>
-              <a className="icon-link" href="#">
-                Buy
-                <svg className="bi">
-                  {/* <use xlink:href="#chevron-right" /> */}
-                </svg>
-              </a>
-            </div>
           </div>
           <div className="product-device shadow-sm d-none d-md-block"></div>
           <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
+        <div className="d-flex flex-row align-items-center justify-content-center my-5">
+          <a
+            href="https://forms.gle/YgdgZVp93UNmnthu7"
+            className="btn btn-primary align-self-center w-25 "
+          >
+            Join Waitlist for 50% discount
+            <img src="/right-arrow.png" width="25px" height="25px" />
+          </a>
         </div>
 
         <div className="container ">
@@ -50,10 +47,11 @@ function App() {
               />
             </div>
           </div>
+
           <div className="row my-5">
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
               <img
-                src="/tent-admin-dashboard.png"
+                src="/tent-admin-dashboard.jpg"
                 className="rounded img-fluid shadow"
               />
             </div>
@@ -65,6 +63,33 @@ function App() {
                 monitor products with ease, fostering a more productive and
                 organized work environment.
               </p>
+            </div>
+          </div>
+
+          <div className="row my-5 bg-light p-5 rounded">
+            <h3 className="text-center">Customizable Components</h3>
+            <p className="text-center">
+              Adapt the dashboard to your preferences. Tent offers a range of
+              customizable components, ensuring that your workspace aligns
+              perfectly with your coding style and project requirements.
+            </p>
+          </div>
+
+          <div className="row my-5">
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <h2>Smart Forms</h2>
+              <p className="text-center text-muted">
+                Simplify data input and management with our smart forms. From
+                data entry to updates, our forms are designed for efficiency,
+                providing a smooth and intuitive experience for your team to
+                interact with and contribute to your internal processes.
+              </p>
+            </div>
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src="/tent-admin-form.jpg"
+                className="rounded img-fluid shadow"
+              />
             </div>
           </div>
 
@@ -103,8 +128,57 @@ function App() {
               </p>
             </div>
           </div>
+
+          <div className="row my-5">
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <h2>Context Menu</h2>
+              <p className="text-center text-muted">
+                Empower your team with seamless navigation and functionality.
+                The context menu feature allows for intuitive and efficient
+                interaction with your dashboard elements, ensuring a fluid user
+                experience as your team manages tasks and information.
+              </p>
+            </div>
+            <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <img
+                src="/tent-admin-context-menu.jpg"
+                className="rounded img-fluid w-25"
+              />
+            </div>
+          </div>
+
+          <div className="row my-5 bg-light p-5 rounded">
+            <h3 className="text-center">
+              Tent Admin Dashboard: Crafted for Developers, Engineered for
+              Excellence
+            </h3>
+            <p className="text-center">
+              Unlock the full potential of your development with Tent Admin
+              Dashboard. Tailored with precision for developers, our software
+              seamlessly combines aesthetics and functionality to enhance your
+              coding experience.
+            </p>
+          </div>
+
+          <div className="d-flex flex-row align-items-center justify-content-center my-5">
+            <a
+              href="https://forms.gle/YgdgZVp93UNmnthu7"
+              className="btn btn-primary align-self-center w-25 "
+            >
+              Join Waitlist for 50% discount
+              <img src="/right-arrow.png" width="25px" height="25px" />
+            </a>
+          </div>
+          <div className="mb-3 col-sm-12 col-md-4 col-lg-4 "></div>
         </div>
       </main>
+
+      <div className="container">
+        <footer className="py-3 my-4">
+          <ul className="nav justify-content-center border-bottom pb-3 mb-3"></ul>
+          <p className="text-center text-body-secondary">© 2023 CodeArt</p>
+        </footer>
+      </div>
     </>
   );
 }
