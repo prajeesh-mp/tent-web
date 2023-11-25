@@ -10,9 +10,9 @@ function App() {
           <div className="col-md-12 p-lg-5 mx-auto my-5">
             <img src="/logo.png" width="200px" alt="Tent Admin Dashboard" />
             <h1 className="display-3 fw-bold">Designed for developers</h1>
-            <h3 className="fw-normal text-muted mb-3">
-              Build minimalistic Dashboard with Tent Admin
-            </h3>
+            <h2 className="fw-normal text-muted mb-3">
+              Build modern React Admin Dashboard with Tent Admin
+            </h2>
           </div>
           <div className="product-device shadow-sm d-none d-md-block"></div>
           <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -40,8 +40,8 @@ function App() {
               <p className="text-center text-muted">
                 Experience data organization like never before. Our dynamic
                 tables offer a visually stunning and user-friendly interface to
-                view, filter, and manipulate your data with ease. Streamline
-                your workflow and enhance data comprehension effortlessly.
+                view, filter, and manipulate your data with ease. making Tent
+                Admin the ideal solution for a React admin dashboard.
               </p>
             </div>
 
@@ -67,7 +67,9 @@ function App() {
               <p className="text-center text-muted">
                 Explore dynamic charts, trends, and numerical insights on our
                 intuitive dashboard page. Tent Admin Dashboard goes beyond
-                coding, providing a visual narrative of your data.
+                coding, providing a visual narrative of your data.Optimize your
+                React admin dashboard with Tent Admin's comprehensive dashboard
+                components.
               </p>
             </div>
           </div>
@@ -83,12 +85,16 @@ function App() {
 
           <div className="row my-5">
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
-              <h2>Smart Forms</h2>
+              <h2 className="text-center">
+                Smart Forms for a Modern Dashboard
+              </h2>
               <p className="text-center text-muted">
                 Simplify data input and management with our smart forms. From
                 data entry to updates, our forms are designed for efficiency,
                 providing a smooth and intuitive experience for your team to
-                interact with and contribute to your internal processes.
+                interact with and contribute to your internal processes.Tent
+                Admin brings you modern dashboard solutions through smart form
+                functionalities.
               </p>
             </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
@@ -109,7 +115,9 @@ function App() {
               />
             </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
-              <h2>Interactive Cards</h2>
+              <h2 className="text-center">
+                Interactive Cards for a Modern Dashboard
+              </h2>
               <p className="text-center text-muted">
                 Engage with your data dynamically using our interactive cards.
                 From quick snapshots to detailed insights, our cards provide a
@@ -126,7 +134,8 @@ function App() {
                 Enhance your dashboard's functionality with our intuitive
                 popovers. Streamline information display and user interactions
                 by providing context-specific details and actions right at your
-                team's fingertips.
+                team's fingertips.Tent Admin sets the standard for modern
+                dashboards with intuitive popover features
               </p>
             </div>
             <div className="col-6 p-3 d-flex flex-column justify-content-center align-items-center">
@@ -163,10 +172,10 @@ function App() {
               Excellence
             </h3>
             <p className="text-center">
-              Unlock the full potential of your development with Tent Admin
-              Dashboard. Tailored with precision for developers, our software
-              seamlessly combines aesthetics and functionality to enhance your
-              coding experience.
+              Unlock the full potential of your development with Tent Admin - a
+              modern dashboard built with React.JS. Tailored with precision for
+              developers, our software seamlessly combines aesthetics and
+              functionality to enhance your coding experience.
             </p>
           </div>
 
@@ -191,7 +200,7 @@ function App() {
       <div className="container">
         <footer className="py-3 my-4">
           <ul className="nav justify-content-center border-bottom pb-3 mb-3"></ul>
-          <p className="text-center text-body-secondary">© 2023 CodeArt</p>
+          <p className="text-center text-body-secondary">CodeArt</p>
         </footer>
       </div>
     </>
