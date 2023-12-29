@@ -183,7 +183,7 @@ function App() {
             </p>
           </div>
 
-          <div className="d-flex flex-row align-items-center justify-content-center my-5">
+          {/* <div className="d-flex flex-row align-items-center justify-content-center my-5">
             <a
               href="https://forms.gle/YgdgZVp93UNmnthu7"
               className="btn btn-primary align-self-center w-25 "
@@ -196,7 +196,7 @@ function App() {
                 alt="Tent Admin Dashboard"
               />
             </a>
-          </div>
+          </div> */}
           <div className="mb-3 col-sm-12 col-md-4 col-lg-4 "></div>
         </div>
       </main>
