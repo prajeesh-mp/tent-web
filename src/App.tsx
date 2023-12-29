@@ -8,7 +8,10 @@ function App() {
       <main>
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
           <div className="col-md-12 p-lg-5 mx-auto my-5">
-            <img src="/logo.png" width="200px" alt="Tent Admin Dashboard" />
+            <div className="d-flex flex-row justify-content-center align-items-center">
+              <img src="/logo192.png" width="65px" alt="Tent Admin Dashboard" />
+              <span className="title">Tent Admin</span>
+            </div>
             <h1 className="display-3 fw-bold">Designed for developers</h1>
             <h2 className="fw-normal text-muted mb-3">
               Build modern React Admin Dashboard with Tent Admin
@@ -20,15 +23,16 @@ function App() {
 
         <div className="d-flex flex-row align-items-center justify-content-center my-5">
           <a
-            href="https://forms.gle/YgdgZVp93UNmnthu7"
-            className="btn btn-primary align-self-center w-25 "
+            href="https://tent-admin-demo.web.app"
+            className="btn btn-dark align-self-center "
           >
-            Join Waitlist for 50% discount
+            Demo
             <img
               src="/right-arrow.png"
               width="25px"
               height="25px"
               alt="React Admin Dashboard"
+              className="ms-2"
             />
           </a>
         </div>
