@@ -31,6 +31,69 @@ function FreeBSTemplates(): JSX.Element {
         </div>
 
         <div className="row align-items-md-stretch">
+          <div className="col-md-6 d-flex align-items-center">
+            <div>
+              <img
+                src="https://coreui.io/images/templates/coreui_free_1440.webp"
+                className="img-fluid"
+              />
+              <div className="d-flex flex-row justify-content-between align-items-center">
+                <div>
+                  <h3 className="mt-2">CoreUI Free Bootstrap Admin Template</h3>
+                  <a
+                    className="btn btn-light"
+                    href="https://coreui.io/product/free-bootstrap-admin-template/"
+                    target="_blank"
+                  >
+                    Download
+                  </a>
+                </div>
+                <span>FREE</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 d-flex align-items-center">
+            <div>
+              <img
+                src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/ample-admin-bootstrap-lite-y.jpg"
+                className="img-fluid"
+              />
+              <div className="d-flex flex-row justify-content-between align-items-center ">
+                <div>
+                  <h3 className="mt-2">Ample Bootstrap Admin Lite</h3>
+                  <a
+                    className="btn btn-light"
+                    href="https://www.wrappixel.com/templates/ample-admin-lite/"
+                    target="_blank"
+                  >
+                    Download
+                  </a>
+                </div>
+                <span>FREE</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="h-100 p-5 text-bg-dark rounded-3">
+              <h2>Core UI</h2>
+              <p>
+                Swap the background-color utility and add a `.text-*` color
+                utility to mix up the jumbotron look. Then, mix and match with
+                additional component themes and more.
+              </p>
+              <img
+                src="https://coreui.io/images/templates/coreui_free_1440.webp"
+                className="img-fluid"
+              />
+              <a
+                className="btn btn-outline-light"
+                href="https://coreui.io/product/free-bootstrap-admin-template/"
+                target="_blank"
+              >
+                Download
+              </a>
+            </div>
+          </div>
           <div className="col-md-6">
             <div className="h-100 p-5 text-bg-dark rounded-3">
               <h2>Change the background</h2>
