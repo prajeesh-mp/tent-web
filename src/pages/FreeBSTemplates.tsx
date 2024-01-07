@@ -36,6 +36,7 @@ function FreeBSTemplates(): JSX.Element {
               <img
                 src="https://coreui.io/images/templates/coreui_free_1440.webp"
                 className="img-fluid"
+                alt="CoreUI Free Bootstrap Admin Template"
               />
               <div className="d-flex flex-row justify-content-between align-items-center">
                 <div>
@@ -44,6 +45,7 @@ function FreeBSTemplates(): JSX.Element {
                     className="btn btn-light"
                     href="https://coreui.io/product/free-bootstrap-admin-template/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Download
                   </a>
@@ -57,6 +59,7 @@ function FreeBSTemplates(): JSX.Element {
               <img
                 src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/ample-admin-bootstrap-lite-y.jpg"
                 className="img-fluid"
+                alt="Ample Bootstrap Admin Lite"
               />
               <div className="d-flex flex-row justify-content-between align-items-center ">
                 <div>
@@ -65,6 +68,7 @@ function FreeBSTemplates(): JSX.Element {
                     className="btn btn-light"
                     href="https://www.wrappixel.com/templates/ample-admin-lite/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Download
                   </a>
@@ -84,11 +88,13 @@ function FreeBSTemplates(): JSX.Element {
               <img
                 src="https://coreui.io/images/templates/coreui_free_1440.webp"
                 className="img-fluid"
+                alt=""
               />
               <a
                 className="btn btn-outline-light"
                 href="https://coreui.io/product/free-bootstrap-admin-template/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Download
               </a>
