@@ -32,6 +32,7 @@ function FreeBSTemplates(): JSX.Element {
                             apps faster than before."
                             imgUrl="https://coreui.io/images/templates/coreui_free_1440.webp"
                             downloadUrl="https://coreui.io/product/free-bootstrap-admin-template"
+                            demoUrl="https://coreui.io/demos/bootstrap/4.2/free/"
                         />
 
                         <Template
@@ -42,6 +43,7 @@ function FreeBSTemplates(): JSX.Element {
                             can use for admin dashboards and admin panels."
                             imgUrl="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/ample-admin-bootstrap-lite-y.jpg"
                             downloadUrl="https://www.wrappixel.com/templates/ample-admin-lite"
+                            demoUrl="https://demos.wrappixel.com/free-admin-templates/bootstrap/ample-bootstrap-free/landingpage/index.html"
                         />
                     </article>
                 </div>
