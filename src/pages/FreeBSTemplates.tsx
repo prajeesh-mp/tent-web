@@ -25,20 +25,6 @@ function FreeBSTemplates(): JSX.Element {
 
                 <div className="container mt-4">
                     <article>
-                        <section className="mb-4">
-                            <h2>CoreUI Free Bootstrap Admin Template</h2>
-                            <p className="lead">
-                                CoreUI Free Admin Panel is not another blend of 3rd parties free components and libraries. It's the only Open Source Bootstrap Admin Dashboard
-                                Template built on the enterprise-grade hand-crafted UI Components Library created and backed by professionals. CoreUI helps you build reliable web
-                                apps faster than before.
-                            </p>
-                            <img src="https://coreui.io/images/templates/coreui_free_1440.webp" alt="Template Name 1 Preview" className="img-fluid" />
-                            <p>
-                                <a href="https://coreui.io/product/free-bootstrap-admin-template" target="_blank" className="btn btn-success mt-3" rel="noreferrer">
-                                    Download
-                                </a>
-                            </p>
-                        </section>
                         <Template
                             title="CoreUI Free Bootstrap Admin Template"
                             description="CoreUI Free Admin Panel is not another blend of 3rd parties free components and libraries. It's the only Open Source Bootstrap Admin Dashboard
@@ -47,12 +33,13 @@ function FreeBSTemplates(): JSX.Element {
                             imgUrl="https://coreui.io/images/templates/coreui_free_1440.webp"
                             downloadUrl="https://coreui.io/product/free-bootstrap-admin-template"
                         />
+
                         <Template
                             title="Ample Bootstrap Admin Lite"
                             description="Ample Bootstrap Admin Lite is a free Bootstrap Dashboard Admin
-              Template with a broad scope of options and possibilities. It’s
-              one of the cleanest and most beautiful Bootstrap 4 templates you
-              can use for admin dashboards and admin panels."
+                            Template with a broad scope of options and possibilities. It’s
+                            one of the cleanest and most beautiful Bootstrap 4 templates you
+                            can use for admin dashboards and admin panels."
                             imgUrl="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/ample-admin-bootstrap-lite-y.jpg"
                             downloadUrl="https://www.wrappixel.com/templates/ample-admin-lite"
                         />
