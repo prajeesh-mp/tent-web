@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body {
+    background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 960px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pricing-header {
+    max-width: 700px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.br-3 {
+    border-radius: 0.75rem;
 }
 
-.App-link {
-  color: #61dafb;
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* li:before {
+    content: "✔";
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1em;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.3em;
+    text-align: center;
+    color: #00b01d;
+} */
+
+.tickmark-circle {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: #00b01d;
+    border-radius: 50%;
+}
+
+.tickmark-circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1' viewBox='0 0 24 24'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.crossed-line {
+    text-decoration: line-through;
+    color: red;
+}
+
+.primary {
+    fill: #a5b3bb;
+}
+
+.secondary {
+    fill: #0d2b3e;
+}
+
+.w-icon {
+    width: 50px;
+}
+
+p {
+    line-height: 30px;
 }
