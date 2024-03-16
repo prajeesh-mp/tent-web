@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tent-admin.web.app/sitemap.xml
+Sitemap: https://tentadmin.com/sitemap.xml
