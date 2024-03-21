@@ -42,8 +42,8 @@ function Home(): JSX.Element {
                     <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
                         <h1 className="display-4 fw-semibold text-body-emphasis">React Bootstrap Admin Dashboard Template</h1>
                         <p className="fs-5 text-body-secondary">
-                            Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and
-                            utilities with little customization.
+                            Tent Admin is a modern React admin dashboard template. From interactive cards to dynamic tables, streamline your internal processes with our
+                            cutting-edge features. Ship your project in days!
                         </p>
                     </div>
                 </header>
