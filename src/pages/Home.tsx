@@ -43,7 +43,7 @@ function Home(): JSX.Element {
                         <h1 className="display-4 fw-semibold text-body-emphasis">React Bootstrap Admin Dashboard Template</h1>
                         <p className="fs-5 text-body-secondary">
                             Tent Admin is a modern React admin dashboard template. From interactive cards to dynamic tables, streamline your internal processes with our
-                            cutting-edge features. Ship your project in days!
+                            cutting-edge features. <span className="text-highlight">Ship your project in days!</span>
                         </p>
                     </div>
                 </header>
@@ -63,6 +63,12 @@ function Home(): JSX.Element {
                                     <a href="https://tent-admin-demo.web.app" target="_blank" className="btn btn-lg btn-secondary m-2" rel="noreferrer">
                                         Experience now <span className="arrow right"></span>
                                     </a>
+                                </p>
+                                <p className="lead text-body-secondary">
+                                    Explore our state-of-the-art Modern Dashboard, driven by React & Bootstrap. Unmatched functionality and ease of use are features of our
+                                    Bootstrap React Admin Template. Avoid the sales pitch and take a look at our React Admin Bootstrap environment instead. Take a look at our admin
+                                    dashboard and get a personal look at its elegant appearance and powerful functionality. Put your trust in your practical experience to help you
+                                    make decisions.
                                 </p>
                             </div>
                         </div>
@@ -171,8 +177,8 @@ function Home(): JSX.Element {
                                     <h4 className="my-0 fw-normal">Tent Admin 1.0</h4>
                                 </div>
                                 <div className="card-body d-flex flex-column align-items-center">
-                                    <h3 className="card-title pricing-card-title crossed-line">$29.99</h3>
-                                    <h1 className="card-title pricing-card-title fw-semibold">$14.99</h1>
+                                    <span className="card-title pricing-card-title crossed-line">$29.99</span>
+                                    <h3 className="card-title pricing-card-title fw-semibold">$14.99</h3>
 
                                     <ul className="list-unstyled mt-3 mb-4">
                                         <li className="d-flex flex-row align-items-center mb-3">
@@ -203,6 +209,31 @@ function Home(): JSX.Element {
                                     <a href="https://forms.gle/4DgFkUAfjrkG7inK8" className="w-100 btn btn-lg btn-primary">
                                         Buy now
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <h4 className="mb-3">Blog</h4>
+                    <div className="row mb-2">
+                        <div className="col-md-12">
+                            <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div className="col p-4 d-flex flex-column position-static">
+                                    <strong className="d-inline-block mb-2 text-primary-emphasis">World</strong>
+                                    <h3 className="mb-0">Free Boostrap Templates</h3>
+                                    <div className="mb-1 text-body-secondary">Mar 20</div>
+                                    <p className="card-text mb-auto">
+                                        The best Bootstrap templates you will ever find for your Admin Dashbaord. Discover unparalleled excellence in Modern Admin Dashboard design
+                                        with our top-tier Bootstrap templates. Crafted with precision and innovation, our templates redefine the standards of functionality and
+                                        aesthetics.
+                                    </p>
+                                    <Link to="/blog/free-bootstrap-admin-templates" className="icon-link gap-1 icon-link-hover stretched-link">
+                                        Continue reading
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z" fill="currentColor" />
+                                        </svg>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

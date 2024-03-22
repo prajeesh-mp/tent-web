@@ -79,3 +79,9 @@ body {
 p {
     line-height: 30px;
 }
+
+.text-highlight {
+    background: #fbed36;
+    padding: 3px;
+    color: #000;
+}
